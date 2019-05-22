@@ -1,0 +1,1471 @@
+
+/*font 
+Headline h1 h2 h3 
+font-family: 'Karla', sans-serif;
+Text font-family: 'Montserrat', sans-serif;*/
+
+
+
+/*html5 display rule*/
+address, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, menu, nav, section, summary {
+	display: block;
+}
+
+
+
+
+/*Global styles*/
+
+/*Mainnav*/
+
+
+a {
+	text-decoration: none;
+}
+
+
+#mainnav {
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: 15px;
+	
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+
+/*Mainnavcolor*/
+
+#visit  {
+  background-color:#EB1D4F;
+}
+
+#cosmology {
+  background-color:#EB1D4F;
+  color:white;
+display: block;
+}
+
+#exhibition{
+	background-color: #05A8CB;
+}
+
+#programs{
+	background-color: #148C8B ;
+}
+
+#learn{
+	background-color: #F04A20;
+}
+
+#about{
+	background-color: #F2AFAD ;
+}
+
+/*Dropdownavsnittet*/
+
+#caruno {
+  background-color:black;
+}
+
+
+	/* contact Style inputs */
+	
+   #contact input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #148C8B;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+	
+#contact input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: black;
+}
+
+/* Style the container */
+.container {
+  border-radius: 5px;
+  background-color: #F2AFAD ;
+  padding: 10px;
+}
+/* float */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+	
+/* dropdown nav button*/
+
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  margin: 0;
+}
+
+#location a:hover, .dropdown:hover .dropbtn {
+  	background-color: black; 
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  	background-color:  lightblue; 
+}
+
+
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: inherit;
+	background-color: #000000; 
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color: inherit;
+	
+}
+
+/* Since i have the "ul li" "float:left"
+ * I need to add a clear after the container.important remmember it this time */
+nav:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #EB1D4F;;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: black;
+  color: white;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: white;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: white;
+	color:black;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: green;
+  color: white !important
+}
+
+
+
+/* Start with mobile phone*/
+
+/*mobile styles*/
+ 
+@media (min-width: 320px) and (max-width: 767px) {
+	
+	html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+	-webkit-text-size-adjust:none;}
+	
+	body{
+	width: 100%;
+	font-size: 1.4em;
+	background-color: #fff;
+	min-width: 320px;
+	max-width: 767px;
+	margin: auto;
+	
+}
+	
+	#index(
+	
+	)
+		/*header styles*/
+	
+		header{
+		width: 100%;
+		
+}
+		/*skrift*/
+		h1 {
+	font-size:2em;
+	text-align: center;
+	margin-bottom: .5em;
+	white-space: pre-wrap;
+	line-height:1.25em;
+	}
+	
+ 			 h2 {
+	font: 1.625em  karla;
+	margin-bottom: 5%;
+	white-space: pre-wrap;
+	text-align: center;
+	line-height: 1.15384615em;
+	margin-top: 5%;
+		
+}
+	
+	
+		
+			 h3 {
+	font: 1.375em   karla;
+	margin-bottom: 5%;
+	white-space: pre-wrap;
+	text-align: center;
+	line-height: 1.13636364em;
+		
+}
+	
+			h4{
+	font-family: karla, sans-serif;
+	white-space: pre-line;
+	text-align: center;
+	line-height:1.5em;
+	font-size: bold;
+	font:1.375em ;
+			
+}
+	
+		p {
+	font-size: 1em;
+	white-space: pre-wrap;
+	line-height:1.25em;
+	margin-bottom: .5em;
+}
+
+	/*banner img*/
+	
+	.banner img {
+	width: 90%;
+	margin-left:10%;
+	margin-top: 1em;
+	white-space: pre-line;
+}
+	
+	/*Logo*/
+	
+		#logo {
+		display: block;
+		width: 60%;
+		margin-left: 20%;
+
+
+}
+	
+	/*nav styles*/
+		#mainnav {
+		padding: 0 80px
+		white-space: pre-wrap;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  		font-weight: 300;
+		width: 100%; 
+}
+		/* Change item's width to 100% */
+	#mainnav .dropdown-content ul li  {
+		display: block;
+		border:1px solid white; 
+		width: 100%;
+	
+		
+}
+		#mainnav  .dropdown, .nav1 .fa fa-caret-down .dropdown-content{
+		padding:5px;
+		display: block;
+		width: 90%;
+		margin-left:
+		white-space: pre-wrap;
+}
+	
+
+	
+		/* Display Dropdown when clicked on Parent Lable */
+	[id^=drop]:checked + ul {
+		display: block;
+		width: 90%;
+		
+}
+	
+		/* Hide the navigation  default */
+	/* Also hide the  */
+	.dropdown + a,
+	.drobtn .dropdown-content {
+	display: none;
+	width: 90%;
+}
+	
+		/* Display Dropdown when clicked on Parent Lable */
+	[id^=drop]:checked + ul {
+		display: block;
+}
+	
+			/* Hide Dropdowns by Default */
+	.nav1 .dropdown-content {
+		float: none;
+		position:static;
+		color: #ffffff;
+		width: 100%;
+		/* has to be the same number as the "line-height" of "nav a" */
+}
+	
+		/* Hide menus on hover */
+	.nav1 .dropdown-content .dropdown ul ul:hover > ul,
+	.nav1 .dropdown-content  ul:hover > ul {
+		display: none;
+}
+			/* Fisrt Tier Dropdown */
+	.nav1 ul ul .dropdown-content {
+		display: block;
+		width: 100%;
+}
+		
+	.nav1 .dropdown-content  {
+		position: static;
+		width: 100%;
+}
+	
+		.navtekst{
+		font-family: 'Karla', sans-serif;
+		font-weight: 300;
+		font-size:1.em ; 
+		line-height: 1.5em;
+}
+	/*Introduksjon */
+	.intro{
+   white-space: pre-line;
+	margin-top: -25px;
+}
+	
+		.intro h1{
+		text-align: center;
+		font-size: 2em;
+		line-height: 1.25;
+		padding: 10px;
+}
+	
+		.intro p{
+		font-size: 1em;
+	white-space: pre-line;
+	line-height: 1.25;
+	margin-bottom: 1em;
+	font-family: Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   	font-weight: 300;
+	padding: 10px;
+	text-align: center;	
+	margin-top: -25px;
+}
+		.intro a{
+		margin-left: 45%;
+		padding: 12px;
+		box-sizing: border-box;
+		display: inline-block;
+		border-radius: 15px;
+		background-color: #4CAF50;
+		 color: white;
+		margin-bottom: 5%;
+	
+	
+}
+
+.intro img{
+		width: 100%;
+		white-space: pre-line;
+}
+	
+		/*informasjon boksen på intro tilhører admisiin og next*/
+	
+	#information{
+background: #00B4DB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;
+display: block;
+margin-top:5px;
+box-sizing: border-box;
+padding: 10px;
+}
+	
+		/*admission*/
+	
+	#admission{
+		padding: 10px;
+		white-space: pre-line;
+		text-align: center;
+}
+	
+		#admission p{
+		white-space: pre-line;
+		text-align: left;
+}
+	
+			#acces{
+		padding: 20px;
+		white-space: pre-wrap;
+		margin-top:-30%;
+}
+	
+	
+		/*Table*/
+	
+	table {
+	border-collapse: collapse;
+  	width: 100%;
+	white-space: pre-line;
+	margin-top:5%;
+	box-sizing: border-box;
+}
+		table h4 {
+		white-space: pre-wrap;
+		text-decoration: underline;
+		font-size: 1em;
+		line-height: 1.25;
+		
+}
+	
+		
+th, td {
+    text-align: center;
+	width: auto;
+	font-size: 1em;
+	padding: 10px;
+	white-space: pre-line;
+	line-height: 1em;
+	margin-bottom: .5em;
+	
+}
+				tr:nth-child(odd)
+	{background-color: rgb (237, 22, 76) ;
+
+	
+}
+	
+		tr:nth-child(even){
+		background-color: #EB1D4F;
+
+}
+		tr:nth-child(even){
+		color: white;
+
+}
+	/*Rute*/
+	
+		#car {
+		width: 80%;
+		height: 70px;
+		text-align: center;
+		background: #ff9a9e ;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to right, #ff9a9e , #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to right,, #fad0c4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			color: white;
+		display: block;
+		margin-top:1%;
+		box-sizing: border-box;
+		padding: 10px;
+		margin-left: 5%;			
+}
+		#car h4{
+		font-size: 16px;
+		line-height:1.11111111em ;
+		font-family: 'Karla', sans-serif;
+}
+	
+		iframe{
+	margin-top: 5%;
+	white-space: pre-line;
+	width: auto;
+	margin-left: 10%;
+	padding: 10px;
+
+}
+
+		/*Introduksjon */
+	#ouraim{
+		margin-top: -10%;
+		white-space: pre-line;
+		
+}
+	
+		#ouraim p{
+		font-size: 1em;
+		white-space: pre-line;
+		line-height: 1.25;
+		margin-bottom: 1em;
+		font-family: Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		text-align: center;
+			
+}
+		#ouraim a{
+		margin-left: 35%;
+		padding: 12px;
+		box-sizing: border-box;
+		display: inline-block;
+		border-radius: 15px;
+		background-color: #4CAF50;
+		 color: white;
+		margin-bottom: 5%;
+		
+}
+	
+	#ouraim img{
+		width: 100%;
+		white-space: pre-line;
+}
+	
+	/*News boksene*/
+	
+	
+#news {
+		text-align: center;
+		white-space: pre-wrap;
+		width: 90%;
+	margin-left: 5%;
+	margin-top: -30%
+	
+	
+}
+	
+		#mammoth1 {
+		display: none;
+	} 
+	#dino{
+		display: none;
+}
+
+			.news1{
+		box-sizing: border-box;
+		background: #FF416C;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		color: white;
+		box-sizing: border-box;
+		padding: 10px;
+		width: 100%;
+	
+} 
+	
+	
+		
+	#mammoth{
+		width:100%;
+		white-space: pre-line;
+	}
+	
+	#news img{
+		width: 90%;
+		white-space: pre-line;
+		
+}
+	
+		#news a{
+		margin-left: 45%;
+		padding: 12px;
+			box-sizing: border-box;
+		display: inline-block;
+		border-radius: 15px;
+		background-color: #4CAF50;
+		 color: white;
+			
+}
+		
+	.news2{
+		box-sizing: border-box;
+		background: #ED213A;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		color: white;
+		display: inline-flex;
+		box-sizing: border-box;
+		padding: 20px;
+		width: 100%;
+}
+	
+	
+		/*exhibition space*/
+	
+	
+	
+		#exhibitionspace{
+		white-space: pre-wrap;
+		text-align: center;
+		margin-top: -15%;
+		}
+	
+		#exhibitionspace  a{
+		margin-left: 65%;
+		margin-bottom: 5%;
+		margin-top: -5%;
+		display: block;
+		color: white;
+			
+}
+	.glemt{
+	background-color: #05A8CB;
+	color: white;
+	display: block;
+	box-sizing: border-box;
+	padding: 20px;
+	width: 100%;
+		
+	}
+.evolution{
+	background-color:rgba(226, 47, 89, 0.901961);
+	color: white;
+	box-sizing: border-box;
+	padding: 20px;
+	width: 100%;
+	
+}
+		.bio {
+	background-color:rgba(232, 73, 12, 0.901961); 
+	color: white;
+	box-sizing: border-box;
+	padding: 20px;
+	width: 100%;
+}	
+	
+			.robo {
+	background-color:rgba(19, 140, 140, 0.901961); 
+	color: white;
+	box-sizing: border-box;
+	padding: 20px;
+	width: 100%;
+}
+	/*support */
+	#Support{
+		margin-top: -20%;
+		white-space: pre-line;
+		padding: 10px;
+		
+		
+}
+	
+	
+		#Support p{
+		font-size: 1em;
+		white-space: pre-line;
+		line-height: 1.25;
+		margin-bottom: 1em;
+		font-family: Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   		font-weight: 300;
+		
+		margin-top: -5px;
+		text-align: center;
+			
+}
+		#Support a{
+		margin-left: 45%;
+		padding: 12px;
+			box-sizing: border-box;
+		display: inline-block;
+		border-radius: 15px;
+		background-color: #4CAF50;
+		 color: white;
+		margin-bottom: 15%;
+}
+	
+	#Support img{
+		width: 80%;
+		border-radius: 50%;
+		white-space: pre-wrap;
+		margin-left: 10%;
+}
+	
+/*Footer*/
+		footer{
+		margin-top: 10%;
+		background: #00B4DB;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		color: white;
+		display: block;
+		text-decoration: none;
+		width: 100%;
+		box-sizing: border-box;
+}
+
+	#footerlogo{
+		white-space: pre-wrap;
+		display:inline;
+		width: 30%;
+		margin-top:5%;
+}
+
+
+
+.footerflexcontaineripone{
+		display:flex;
+}
+
+.footeradresse{
+	flex: 40%;
+	margin-left: 15px;
+}
+
+.footeradresse p{
+	font-size: 16px
+	
+}
+
+.footernav{
+	flex: 40%;
+	padding: 15px;
+	margin-left: 5%;
+	
+}
+
+#footerinfo a{
+text-decoration: none;
+color: white;
+display: block;
+padding: 15px
+font-size: 18px;
+margin-left: 5%;
+
+
+}
+
+#footerform	{
+	  border: 3px solid #EB1D4F;
+  font-family: helvetica;
+	 padding: 10px;
+  background-color:#EB1D4F;
+}
+
+
+
+
+
+#footerform	input[type=text], input[type=button] {
+padding:  12px;
+box-sizing: border-box;
+border-radius: 15px;
+margin: 8px 0;
+display: inline-block;
+width: 100%;
+border:1px solid #05A8CB;
+ box-sizing: border-box;
+}
+
+input[type=button] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+margin-bottom: 10%;
+}
+
+#soscial{
+	text-align: center;
+	padding: 10px;
+}
+
+	/*visit*/
+	#food{
+		display:flex;
+		flex-direction: row;
+		white-space: pre-line;
+}
+		.food p{
+		font-size: 1em;
+	white-space: pre-wrap;
+	line-height: 1.25;
+	margin-bottom: 1em;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   	font-weight: 300;
+	padding: 10px;
+	text-align: center;		
+}
+	
+	
+	
+	.food img{
+		width: 100%;
+		white-space: pre-line;
+}
+	
+		
+	#shop p{
+		font-size: 1em;
+	white-space: pre-wrap;
+	line-height: 1.25;
+	margin-bottom: 1em;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   	font-weight: 300;
+	padding: 10px;
+	text-align: center;		
+}
+	
+	
+	#shop img{
+		width: 100%;
+		white-space: pre-line;
+}
+	
+#trans{
+	display: none;
+}
+
+#kidsplay{
+	width: 100%;
+}
+	
+	/*exhibition*/
+#ex{
+		margin-top: 1%;
+		white-space: pre-line;
+		
+}
+	
+	
+		#ex p{
+		font-size: 1em;
+		white-space: pre-line;
+		line-height: 1.25;
+		margin-bottom: 1em;
+		font-family: Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+		text-align: center;
+			
+	}
+#ex h2{
+	margin-top: -14%;
+		
+			
+	}
+	
+	
+	#ex img{
+		width: 100%;
+		white-space: pre-line;
+	}
+	
+	#blyant{
+		display: none;
+	}
+	
+	#Cosmo{
+		display: none;
+	}
+.cosmo1{
+	margin-top: -20%;
+}
+
+
+
+#cosmologyfarge{
+	
+background-color:rgba(0, 159, 193, 0.901961);
+	color: white;
+	display: block;
+	box-sizing: border-box;
+	padding: 20px;
+	width: 10%;
+	white-space: pre-line;
+	margin-left: 5%;
+
+	
+}
+#cosmologyfarge h2{
+	margin-top: 5%;
+}
+
+
+
+#evolution{
+	background-color: #EB1D4F;
+	color: white;
+	display: block;
+	box-sizing: border-box;
+	padding: 10px;
+	width: 90%;
+	white-space: pre-line;
+	margin-left: 5%;
+	
+}
+
+#rob{
+	
+	box-sizing: border-box;
+		background: #FF416C;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		color: white;
+		display: block;
+		box-sizing: border-box;
+		padding: 20px;
+		width: 90%;
+		white-space: pre-line;
+		margin-left: 5%;
+}
+
+
+#biologymedicine{
+	background: #00B4DB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: white;
+	display: block;
+	box-sizing: border-box;
+	padding: 10px;
+	width: 90%;
+	white-space: pre-line;
+	margin-left: 5%;
+	
+
+	
+}
+#eco{
+	background-color:rgba(19, 140, 140, 0.901961);
+	color: white;
+	display: block;
+	box-sizing: border-box;
+	padding: 10px;
+	width: 90%;
+	white-space: pre-line;
+	margin-left: 5%;
+}
+
+#tiger{
+	border-radius: 50%;
+}
+		/*program*/
+
+		#newsletterprogram{
+		box-sizing: border-box;
+		background:rgba(19, 140, 140, 0.901961); 
+		padding: 12px;
+		white-space: pre-line;
+		width: 100%;
+		background-color:#EB1D4F;
+		color:white;
+		border-radius: 15px solid #EB1D4F;
+		margin-top: 15%;
+}
+	   #newsletterprogram h2{
+		color: white;
+		font: 1.5em  karla;
+		white-space: pre-line;
+	    text-align: center;
+	    line-height: 1.5em;
+		  margin-top: -25%;
+			
+}
+	.intronewsletter input[type=text], select, textarea {
+  width: 100%;
+  border-radius: 15px;
+  box-sizing: border-box;
+  resize: vertical;
+  padding:  12px;
+  text-align: center;
+  margin-left: 15%;
+		border-radius: 15px;
+margin: 8px 0;
+display: inline-block;
+	
+}
+
+#kids a{
+		margin-left: 55%;
+		padding: 10px;
+}
+#kids image{
+		margin-left: 55%;
+		padding: 10px;
+}
+
+			#hamster{
+		width: 100%;
+		padding: 20px;
+		border-radius: 50%;
+		
+}
+	
+
+
+
+
+
+
+input[type=button] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+margin-bottom: 10%;
+}
+
+
+ .intronewsletter input[type=button] {
+  width: 60%;
+  border-radius: 15px;
+  box-sizing: border-box;
+  resize: vertical;
+  padding: 12px;
+ margin-left: 20%;
+color: white;
+ }
+	/*specialevents*/
+
+.special{
+	background-image: linear-gradient(to right top, #d16ba5, #a5619a, #7c5689, #574972, #3a3b57, #2d374f, #233345, #1c2e3b, #163441, #0e3b44, #084145, #0c4743);
+	color: white;
+	display: block;
+	box-sizing: border-box;
+	padding: 10px;
+	white-space: pre-line;
+	width: 90%;
+	margin-left: 5%
+}	
+.special p{
+	font-size: 1em;
+	font-family: Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}	
+	 
+.special img{
+	width: 100%;
+}
+
+.special{
+	background-image: linear-gradient(to right top, #d16ba5, #a5619a, #7c5689, #574972, #3a3b57, #2d374f, #233345, #1c2e3b, #163441, #0e3b44, #084145, #0c4743);
+	color: white;
+	display: block;
+	box-sizing: border-box;
+	padding: 10px;
+	white-space: pre-line;
+	width: 90%;
+	margin-left: 5%
+}	
+.special p{
+	font-size: 1em;
+	text-align: center;
+}	
+	 
+#specialevent   img{
+	width: 100%;
+}
+#specialevent1   img{
+	width: 100%;
+}
+#specialevent2   img{
+	width: 100%;
+}
+
+
+
+	.specialtwo{
+		box-sizing: border-box;
+		background-color: #05A8CB;
+		color: white;
+		white-space: pre-line;
+		padding: 40px;
+		font-size: 1em;
+		line-height: 1.25;
+		margin-bottom: 5px;
+	font-family: Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+		width: 90%;
+		margin-left: 5%;
+		margin-top: 5%;
+}
+	
+			.specialone{
+		box-sizing: border-box;
+		background-color: #F04A20;
+		color: white;
+		white-space: pre-line;
+		padding: 40px;
+		font-size: 1em;
+		line-height: 1.25;
+		margin-bottom: 5px;
+		font-family: Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   		font-weight: 300;
+		width: 90%;
+		margin-left: 5%;
+		margin-top: 5%;
+}
+	
+.learningdesign{
+		box-sizing: border-box;
+		background-color: white;
+		white-space: pre-wrap;
+		display: flex;
+}
+
+.learningdesign p{
+		font-size: 1em;
+		line-height: 1.25;
+		margin-bottom: 5px;
+		text-align: center;
+		font-family: Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;  
+}
+.learningdesign img{
+		border-radius: 50%;
+	 margin-top: 5%;
+}
+		
+	.learningdesign{
+		box-sizing: border-box;
+		background-color: white;
+		white-space: pre-wrap;
+		display: flex;
+}
+
+#kids{
+		box-sizing: border-box;
+		background-color: white;
+		white-space: pre-wrap;
+	display: flex;
+}
+
+
+
+
+#kids p{
+		font-size: 1em;
+		line-height: 1.25em;
+		text-align: center;
+	font-family: Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+		
+.font{
+	font-family: Verdana, sans-serif;}
+	font-size: 2em ;
+		line-height: 1.25em;
+	
+}
+
+/*about*/
+#about23 p{
+	color: black;
+	padding: 10px;
+	font-size: 1em;
+	line-height: 1.25;
+	margin-bottom: 5px;
+	text-align: center;
+	font-family: Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   	font-weight: 300;
+}
+
+#about23 h2{
+	padding: 10px;
+	color: white;
+	font-size: 2em;
+	line-height: 1.25;
+	text-align:center;
+	font-family: karla; 
+	background-color:#EB1D4F;
+	width: 100%;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	/*disable text sizing on orientation change*/
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+	-webkit-text-size-adjust:none;
+}
+	body{
+		width: 90%;
+		margin: 0 auto ;
+		min-width: 768px;
+		max-width: 1024px;
+		background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
+		
+	}
+	
+	
+	/*header styles*/
+	header{
+	width: 90%;
+		
+	}
+	
+		/*skrift*/
+		h1 {
+	font-weight:bold;
+	font-size:2.5em;
+	text-align: center;
+	margin-bottom: .5em;
+	white-space: pre-wrap;
+	line-height: 1.125em;
+	}
+
+	 			 h2 {
+	font: 1.625em  karla;
+	margin-bottom: 5%;
+	white-space: pre-wrap;
+	text-align: center;
+	line-height: 1.15384615em;
+	margin-top: 5%;
+		
+}
+	
+				 h3 {
+	font: 1.5em  karla;
+	margin-bottom: 5%;
+	white-space: pre-wrap;
+	text-align: center;
+	line-height: 1.25em ;
+		
+}
+	
+			h4{
+	font-family: helvetica neu, sans-serif;
+	margin-bottom: 5%;
+	white-space: pre-wrap;
+	text-align: center;
+	line-height: 1.22222222em;
+	font-size: bold;
+	font: 1.125em  karla;
+			
+	}
+	
+	
+		
+		p {
+	font-size: 1em;
+	white-space: pre-wrap;
+	line-height: 1.375em;
+	margin-bottom: .5em;
+	}
+	
+			/*banner img*/
+	
+	.banner img {
+	display: none;
+	}
+	
+	.backgroundImage{
+	background-image:url(../img/bakgrunnsbilde.jpg);
+	background-position: center;
+  	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 800px;
+}
+	
+	/*Logo*/
+	
+		#logo {
+		display: block;
+		padding: 0 0px;		
+		width: 40%;
+		text-align: center;
+		background: #fff;
+		margin-bottom: 1em;
+		white-space: pre-wrap;
+	}
+	
+		/*nav styles*/
+		#mainnav {
+		padding: 0 80px
+		white-space: pre-wrap;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  		font-weight: 300;
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+	
+}
+		/* Change item's width to 100% */
+	#mainnav .dropdown-content ul li  {
+		display: block;
+		border:1px solid white; 
+		width: 100%;
+		
+	
+		
+}
+		#mainnav  .dropdown, .nav1 .fa fa-caret-down .dropdown-content{
+		padding:5px;
+		display: block;
+		width: 90%;
+		margin-left:
+		white-space: pre-wrap;
+}
+	
+
+	
+		/* Display Dropdown when clicked on Parent Lable */
+	[id^=drop]:checked + ul {
+		display: block;
+		width: 90%;
+		
+}
+	
+		/* Hide the navigation  default */
+	/* Also hide the  */
+	.dropdown + a,
+	.drobtn .dropdown-content {
+	display: none;
+	width: 90%;
+}
+	
+		/* Display Dropdown when clicked on Parent Lable */
+	[id^=drop]:checked + ul {
+		display: block;
+}
+	
+			/* Hide Dropdowns by Default */
+	.nav1 .dropdown-content {
+		float: none;
+		position:static;
+		color: #ffffff;
+		width: 100%;
+		/* has to be the same number as the "line-height" of "nav a" */
+}
+	
+		/* Hide menus on hover */
+	.nav1 .dropdown-content .dropdown ul ul:hover > ul,
+	.nav1 .dropdown-content  ul:hover > ul {
+		display: none;
+}
+			/* Fisrt Tier Dropdown */
+	.nav1 ul ul .dropdown-content {
+		display: block;
+		width: 100%;
+}
+		
+	.nav1 .dropdown-content  {
+		position: static;
+		width: 100%;
+}
+	
+		.navtekst{
+		font-family: 'Karla', sans-serif;
+		font-weight: 300;
+		font-size:1.em ; 
+		line-height: 1.5em;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+	
+	body{
+		
+	}
+}
+
+/* Rules tablete Universall*/
+	
+
+	
+	
+	
+
+
+
+	
+
+	
+	
+	
+		
+	
+	
+}
+  
+  
+
